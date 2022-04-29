@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="492dp"
+        android:layout_height="174dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/globe_shaped_chess_board"
+        app:layout_constraintBottom_toTopOf="@+id/button_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/main_screen_board_image"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/button_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/info_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        app:tint="#000000" />
+
+    <ImageButton
+        android:id="@+id/button_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/history_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_recent_history"
+        app:tint="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="cursive"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#3E2723"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_daily_challenge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_multiplayer"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="179dp"
+        android:text="@string/multiplayer"
+        android:textColor="@color/brown_background"
+        app:icon="@drawable/ic_black_knight"
+        app:iconTint="@color/brown_background"
+        app:layout_constraintBottom_toTopOf="@+id/button_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/button_daily_challenge"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/daily_challenge_text"
+        android:textColor="@color/brown_background"
+        app:icon="@drawable/ic_black_bishop"
+        app:iconTint="@color/brown_background"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#000000" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chess4Android</string>
+    <string name="daily_challenge_text">Desafio Diário</string>
+    <string name="info_icon">Info icon</string>
+    <string name="back">Retroceder</string>
+    <string name="chess4android_was_developed_by_pdm_s_g15_in_2122i">Chess4Android foi desenvolvido por: G15 de PDM em 2122i</string>
+    <string name="lichess_logo">Logotipo de Lichess</string>
+    <string name="daily_fun_powered_by_lichess">Diversão diária fornecida por Lichess:</string>
+    <string name="globe_shaped_chess_board">Globe shapped chess board</string>
+    <string name="white_turn">Branco</string>
+    <string name="white_won">Brancas ganharam</string>
+    <string name="black_won">Pretas ganharam</string>
+    <string name="black_turn">Preto</string>
+    <string name="error_message">Lichess está inacessível no momento, mas pode jogar normalmente.</string>
+    <string name="puzzle_date">Data do Puzzle</string>
+    <string name="solve">Resolver</string>
+    <string name="reveal_solution">Mostrar Solução</string>
+    <string name="moves">Movimentos:</string>
+    <string name="resolved_puzzle">Puzzle resolvido</string>
+    <string name="unsolved_puzzle">Puzzle por resolver</string>
+    <string name="history_icon">History icon</string>
+    <string name="restart_game">Quer recomeçar o jogo?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="impossible_move">Impossivel mostrar o jogo pois este não foi finalizado</string>
+    <string name="end_game">Esta é a solução do desafio diário</string>
+    <string name="solved">Resolvido</string>
+    <string name="unsolved">Por resolver</string>
+    <string name="multiplayer">1vs1</string>
+    <string name="one_vs_one">1vs1</string>
+    <string name="online_mode">Online</string>
+    <string name="restart">Outra vez?</string>
+    <string name="waiting_for_opponent_to_join">a aguardar pelo adversário</string>
+    <string name="lobby">Sala</string>
+    <string name="new_">Novo</string>
+    <string name="create_lobby">Criar Sala</string>
+    <string name="name_lobby">Escreva aqui o nome da sala</string>
+    <string name="cancel">Cancelar</string>
+    <string name="create">Criar</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332574734375",
+    "project_id": "chess-royale-pdm-g15",
+    "storage_bucket": "chess-royale-pdm-g15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332574734375:android:2e6c5a1cf2cf25c9413602",
+        "android_client_info": {
+          "package_name": "pt.isel.pdm.chess4android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332574734375-6b2d510fkrbc9motrs4hgg9f4k003etk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1xn4KPtadg0BmnaSpoMYRKxtF0ZBuKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332574734375-6b2d510fkrbc9motrs4hgg9f4k003etk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
